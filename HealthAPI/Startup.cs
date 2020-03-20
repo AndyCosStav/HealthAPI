@@ -50,6 +50,8 @@ namespace HealthAPI
             {
                 endpoints.MapControllers();
             });
+
+            DummyData.Initialize(app);
         }
     }
 }
